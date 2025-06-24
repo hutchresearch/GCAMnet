@@ -1,0 +1,91 @@
+[project]
+name = "ml_gcam"
+version = "0.1"
+description = ""
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "matt jensen" }]
+license = { text = "Apache-2.0" }
+
+dependencies = [
+    "accelerate>=1.6.0",
+    "click>=8.1.8",
+    "dotenv>=0.9.9",
+    "einops>=0.8.1",
+    "geopandas>=1.0.1",
+    "matplotlib>=3.9.4",
+    "pandas>=2.2.3",
+    "polars>=1.29.0",
+    "pyarrow>=20.0.0",
+    "python-configuration[toml]>=0.12.1",
+    "rich==13.9.4",
+    "salib>=1.5.1",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "torch>=2.7.0",
+    "torchtyping>=0.1.5",
+    "tqdm>=4.67.1",
+    "urllib3==1.26.6",
+    "wandb>=0.18.3",
+]
+
+[tool.pytest.ini_options]
+markers = ["slow: marks tests as slow (deselect with '-m not slow')"]
+# addopts = "--cov=ml_gcam --cov-report=term --no-cov-on-fail"
+addopts = "-v --tb=short"
+
+[tool.coverage.run]
+omit = ["cli.py", "ml_gcam/notebooks/*"]
+
+[tool.ruff]
+line-length = 88
+exclude = ["docs"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint]
+ignore = ['D203', 'D212']
+select = [
+	'F',
+	'E',
+	'W',
+	'I',
+	'N',
+	'D',
+	'B',
+	'A',
+	'COM',
+	'C4',
+	'T20',
+	'Q',
+	'SIM',
+]
+
+[tool.mypy]
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_subclassing_any = true
+disallow_any_decorated = true
+disallow_incomplete_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+exclude = ['tests']
+
+[[tool.mypy.overrides]]
+module = [
+	'google.auth.credentials',
+	'yaml',
+	'toml',
+	'boto3',
+	'botocore.exceptions',
+	'hvac',
+	'hvac.exceptions',
+	'jsonschema',
+	'jsonschema.exceptions',
+]
+ignore_missing_imports = true

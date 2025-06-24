@@ -1,0 +1,5 @@
+*
+!.gitignore
+!processed/
+!raw/
+!models/

@@ -1,0 +1,11 @@
+Resource|Metric|Sector
+Energy|Electricity Demand|Transportation,Industrial,Building
+Energy|Fuel Demand|Hydrogen,Fossil,Biomass
+Energy|Price|Electicity,Coal,Gas,Oil
+Energy|Supply|Coal,Gas,Oil,Wind,Solar,Nuclear,Biomass,Other
+Energy|Primary Supply|Coal,Gas,Oil,Wind,Solar,Nuclear,Biomass,Other
+Land|Demand|Feed,Food
+Land|Price|Biomass,Forest
+Land|Allocation|Forest,Biomass,Pasture,Grass,Other
+Land|Production|Forest,Biomass,Pasture,Grass,Other
+Water|Demand|Crops,Electricity

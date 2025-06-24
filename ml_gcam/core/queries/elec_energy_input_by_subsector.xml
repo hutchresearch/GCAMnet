@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries name="query group">
+    <aQuery name="the query">
+        <query title="elec energy input by subsector">
+            <axis1 name="input">input</axis1>
+            <axis2 name="Year">demand-physical[@vintage]</axis2>
+            <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='base load generation' or 
+        @name='intermediate generation' or @name='subpeak generation' or @name='peak generation' or @name='elect_td_bld' ) and not(contains(@name, 'water_td'))]//
+            *[@type='subsector' and not (@name='elect_td_bld')]//
+            *[@type='technology' (:collapse:) and not(
+                            @name='biomass (conv)' or @name='biomass (conv CCS)' or @name='biomass (IGCC)' or @name='biomass (IGCC CCS)'
+                            or @name='coal (conv pul)' or @name='coal (conv pul CCS)' or @name='coal (IGCC)' or @name='coal (IGCC CCS)'
+                            or @name='gas (steam/CT)' or @name='gas (CC)' or @name='gas (CC CCS)'
+                            or @name='refined liquids (steam/CT)' or @name='refined liquids (CC)' or @name='refined liquids (CC CCS)'
+                            or @name='geothermal' or @name='Gen_II_LWR' or @name='Gen_III'
+                            or @name='CSP' or @name='CSP_storage')]/
+            *[@type='input' and not( contains( @name, 'water')) and @name != 'oil-credits']/
+            demand-physical/node()
+        </xPath>
+            <comments/>
+            <labelRewriteList append-values="false">
+                <level name="sector">
+                    <rewrite from="intermediate generation" to="electricity"/>
+                    <rewrite from="peak generation" to="electricity"/>
+                    <rewrite from="base load generation" to="electricity"/>
+                    <rewrite from="subpeak generation" to="electricity"/>
+                </level>
+            </labelRewriteList>
+        </query>
+    </aQuery>
+</queries>

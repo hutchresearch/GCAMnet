@@ -1,0 +1,2533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <world>
+    <region name="Africa_Eastern">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="Africa_Northern">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="Africa_Southern">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="Africa_Western">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="Australia_NZ">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="Brazil">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="Canada">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="Central America and Caribbean">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="Central Asia">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="China">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="EU-12">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="EU-15">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="Europe_Eastern">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="Europe_Non_EU">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="European Free Trade Association">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="India">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="Indonesia">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="Japan">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="Mexico">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="Middle East">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="Pakistan">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="Russia">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="South Africa">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="South America_Northern">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="South America_Southern">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="South Asia">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="South Korea">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="Southeast Asia">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="Taiwan">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="Argentina">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="Colombia">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+    <region name="USA">
+      <supplysector name="regional biomass">
+        <subsector name="regional biomass">
+          <technology name="regional biomass">
+            <period year="2020">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2025">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2030">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2035">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2040">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2045">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2050">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2055">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2060">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2065">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2070">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2075">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2080">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2085">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2090">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2095">
+              <input-tax name="bio-constraint"/>
+            </period>
+            <period year="2100">
+              <input-tax name="bio-constraint"/>
+            </period>
+          </technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="bio-constraint">
+        <market>global</market>
+        <policyType>tax</policyType>
+        <constraint year="2025" fillout="1">100</constraint>
+        <constraint year="2030" fillout="1">100</constraint>
+        <constraint year="2035" fillout="1">100</constraint>
+        <constraint year="2040" fillout="1">100</constraint>
+        <constraint year="2045" fillout="1">100</constraint>
+        <constraint year="2050" fillout="1">100</constraint>
+        <constraint year="2055" fillout="1">100</constraint>
+        <constraint year="2060" fillout="1">100</constraint>
+        <constraint year="2065" fillout="1">100</constraint>
+        <constraint year="2070" fillout="1">100</constraint>
+        <constraint year="2075" fillout="1">100</constraint>
+        <constraint year="2080" fillout="1">100</constraint>
+        <constraint year="2085" fillout="1">100</constraint>
+        <constraint year="2090" fillout="1">100</constraint>
+        <constraint year="2095" fillout="1">100</constraint>
+        <constraint year="2100" fillout="1">100</constraint>
+      </policy-portfolio-standard>
+    </region>
+  </world>
+</scenario>

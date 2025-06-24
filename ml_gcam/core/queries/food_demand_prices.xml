@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries name="query group">
+    <aQuery name="the query">
+        <query title="food demand prices">
+            <axis1 name="input">input[@name]</axis1>
+            <axis2 name="Year">price-paid[@vintage]</axis2>
+            <xPath buildList="true" dataName="price" group="false" sumAll="false">gcam-consumer[@name='FoodDemand']//*[@type='input']/price-paid/node()</xPath>
+            <comments/>
+        </query>
+    </aQuery>
+</queries>

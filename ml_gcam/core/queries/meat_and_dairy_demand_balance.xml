@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries>
+	<aQuery>
+        <all-regions/>
+		<supplyDemandQuery title="demand balances by meat and dairy commodity">
+                <axis1 name="sector">sector</axis1>
+                <axis2 name="Year">demand-physical[@vintage]</axis2>
+                <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type='sector']//*[@type='input' and
+            (@name='Beef' or @name='Pork' or @name='Poultry' or @name='SheepGoat' or @name='OtherMeat_Fish')]/
+            demand-physical/node()</xPath>
+                <comments/>
+            </supplyDemandQuery>
+	</aQuery>
+</queries>

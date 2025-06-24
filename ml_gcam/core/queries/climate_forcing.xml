@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries>
+	<aQuery>
+		<all-regions/>
+		<ClimateQuery title="total climate forcing">
+            <axis1 name="forcing-total">none</axis1>
+            <axis2 name="Year">forcing-total[@year]</axis2>
+            <xPath buildList="true" dataName="forcing-total" group="false" sumAll="false">climate-model/forcing-total/text()</xPath>
+            <comments/>
+        </ClimateQuery>
+	</aQuery>
+</queries>

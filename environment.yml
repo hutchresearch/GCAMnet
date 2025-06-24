@@ -1,0 +1,34 @@
+name: ml_climate_gcam22
+channels:
+  - pytorch-nightly
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - pytorch-cuda=12.1
+  - marimo
+  - polars
+  - pyarrow
+  - pytest
+  - pytest-cov
+  - rich
+  - tqdm
+  - einops
+  - accelerate
+  - pandas
+  - geopandas
+  - click
+  - matplotlib
+  - lxml
+  - wandb
+  - seaborn
+  - scikit-learn
+  - tensorboard
+  - pip:
+    - torchtyping
+    - gcamreader
+    - python-configuration[toml]
+    - python-dotenv

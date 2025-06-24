@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries name="query group">
+    <aQuery name="the query">
+        <query title="LUC emissions by region">
+            <axis1 name="LandLeaf">LandLeaf</axis1>
+            <axis2 name="Year">land-use-change-emission[@year]</axis2>
+            <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="true">/LandNode[@name='root' or @type='LandNode' (:collapse:)]//
+            land-use-change-emission[@year&gt;1970]/text()</xPath>
+            <comments/>
+        </query>
+    </aQuery>
+</queries>

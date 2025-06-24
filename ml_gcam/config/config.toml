@@ -1,0 +1,817 @@
+project = "ml_climate_gcam22"
+debug = 0
+pretend = 0
+tags = ["tags", "to", "add"]
+group = "experimental"
+random_seed = 42
+
+[paths]
+repo = "/path/to/project/"
+data = "/path/to/data/"
+dist = "/path/to/project/dist/"
+figures = "/path/to/project/dist/figures/"
+targets = "/path/to/training/targets.csv"
+checkpoint = "/path/to/model/checkpoint/"
+scenarios = "/path/to/scenarios.csv"
+tensorboard = "/path/to/tensorboard/logs/"
+interpolation = "/path/to/interpolation/"
+core = "/path/to/gcamcore/"
+
+[model]
+arch = "deep"
+hidden_size = 256
+depth = 4
+act_fn = "relu"
+
+[training]
+train_source = 'binary'
+dev_source = 'binary'
+epochs = 250
+batch_size = 256
+learning_rate = 0.001
+metric_freq = 50
+checkpoint_freq = 50
+evaluate_on_test = 0
+samples = 3200
+norm_strat = "z_score"
+detailed_logging = 0
+max_train_samples = 3200
+max_dev_samples = 400
+binary_fraction = 0.5
+
+[sample_size]
+total_samples = 3260
+splits = [
+    0.01,
+    0.02,
+    0.05,
+    0.075,
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.5,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1.0,
+]
+[mixed_fraction]
+fractions = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+
+
+[wandb]
+enabled = 0
+notes = "add notes to wandb here"
+
+[tensorboard]
+enabled = 0
+
+[data.sources."binary"]
+enabled = true
+key = "binary"
+name = "binary"
+new_samples = true
+range = "binary"
+train = true
+dev = true
+test = true
+
+[data.sources."interp_hypercube"]
+enabled = true
+key = "interp_hypercube"
+name = "hypercube"
+new_samples = true
+range = "float"
+train = true
+dev = true
+test = true
+
+[data.sources."interp_dgsm"]
+enabled = true
+key = "interp_dgsm"
+name = "dgsm"
+new_samples = true
+range = "float"
+train = false
+dev = true
+test = false
+
+[data.sources."mixed"]
+enabled = true
+key = "mixed"
+name = "mixed"
+new_samples = false
+range = "float"
+train = true
+dev = true
+test = true
+
+####################
+# Inputs
+####################
+[data.inputs.back]
+key = "back"
+label = "Backups"
+description = "Systems needed to backup solar and wind"
+interpolated = true
+
+[data.inputs.bio]
+key = "bio"
+label = "Bioenergy"
+description = "Tax applied to bioenergy"
+interpolated = false
+
+[data.inputs.ccs]
+key = "ccs"
+label = "Carbon Capture"
+description = "Cost to store CO2"
+interpolated = true
+
+[data.inputs.elec]
+key = "elec"
+label = "Electrification"
+description = "Share of buildings, industries and transport using electricity"
+interpolated = false
+
+[data.inputs.emiss]
+key = "emiss"
+label = "Emissions"
+description = "CO2 emssions"
+interpolated = false
+
+[data.inputs.energy]
+key = "energy"
+label = "Energy"
+description = "Demand - GDP and population assumptions"
+interpolated = true
+
+[data.inputs.ff]
+key = "ff"
+label = "Fossil Fuel"
+description = "Costs of oil, natural gas and coal"
+interpolated = true
+
+[data.inputs.nuc]
+key = "nuc"
+label = "Nuclear"
+description = "Cost of nuclear energy"
+interpolated = true
+
+[data.inputs.solarS]
+key = "solarS"
+label = "Solar Storage"
+description = "Solar storage capacity"
+interpolated = true
+
+[data.inputs.solarT]
+key = "solarT"
+label = "Solar Tech"
+description = "Cost to install and use solar"
+interpolated = true
+
+[data.inputs.windS]
+key = "windS"
+label = "Wind Storage"
+description = "Wind storage capacity"
+interpolated = true
+
+[data.inputs.windT]
+key = "windT"
+label = "Wind Tech"
+description = "Cost to install and use wind"
+interpolated = true
+
+####################
+# Years
+####################
+
+[data.years.2025]
+key = 2025
+
+[data.years.2030]
+key = 2030
+
+[data.years.2035]
+key = 2035
+
+[data.years.2040]
+key = 2040
+
+[data.years.2045]
+key = 2045
+
+[data.years.2050]
+key = 2050
+
+[data.years.2055]
+key = 2055
+
+[data.years.2060]
+key = 2060
+
+[data.years.2065]
+key = 2065
+
+[data.years.2070]
+key = 2070
+
+[data.years.2075]
+key = 2075
+
+[data.years.2080]
+key = 2080
+
+[data.years.2085]
+key = 2085
+
+[data.years.2090]
+key = 2090
+
+[data.years.2095]
+key = 2095
+
+[data.years.2100]
+key = 2100
+
+
+####################
+# Regions
+####################
+
+[data.regions."Africa_Eastern"]
+key = "Africa_Eastern"
+continent = "Africa"
+
+[data.regions."Africa_Northern"]
+key = "Africa_Northern"
+continent = "Africa"
+
+[data.regions."Africa_Southern"]
+key = "Africa_Southern"
+continent = "Africa"
+
+[data.regions."Africa_Western"]
+key = "Africa_Western"
+continent = "Africa"
+
+[data.regions."Argentina"]
+key = "Argentina"
+continent = "South America"
+
+[data.regions."Australia_NZ"]
+key = "Australia_NZ"
+continent = "Australia"
+
+[data.regions."Brazil"]
+key = "Brazil"
+continent = "South America"
+
+[data.regions."Canada"]
+key = "Canada"
+continent = "North America"
+
+[data.regions."Central America and Caribbean"]
+key = "Central America and Caribbean"
+continent = "North America"
+
+[data.regions."Central Asia"]
+key = "Central Asia"
+continent = "Asia"
+
+[data.regions."China"]
+key = "China"
+continent = "Asia"
+
+[data.regions."Colombia"]
+key = "Colombia"
+continent = "South America"
+
+[data.regions."EU-12"]
+key = "EU-12"
+continent = "Europe"
+
+[data.regions."EU-15"]
+key = "EU-15"
+continent = "Europe"
+
+[data.regions."Europe_Eastern"]
+key = "Europe_Eastern"
+continent = "Europe"
+
+[data.regions."Europe_Non_EU"]
+key = "Europe_Non_EU"
+continent = "Europe"
+
+[data.regions."European Free Trade Association"]
+key = "European Free Trade Association"
+continent = "Europe"
+
+[data.regions."India"]
+key = "India"
+continent = "Asia"
+
+[data.regions."Indonesia"]
+key = "Indonesia"
+continent = "Asia"
+
+[data.regions."Japan"]
+key = "Japan"
+continent = "Asia"
+
+[data.regions."Mexico"]
+key = "Mexico"
+continent = "North America"
+
+[data.regions."Middle East"]
+key = "Middle East"
+continent = "Asia"
+
+[data.regions."Pakistan"]
+key = "Pakistan"
+continent = "Asia"
+
+[data.regions."Russia"]
+key = "Russia"
+continent = "Asia"
+
+[data.regions."South Africa"]
+key = "South Africa"
+continent = "Africa"
+
+[data.regions."South America_Northern"]
+key = "South America_Northern"
+continent = "South America"
+
+[data.regions."South America_Southern"]
+key = "South America_Southern"
+continent = "South America"
+
+[data.regions."South Asia"]
+key = "South Asia"
+continent = "Asia"
+
+[data.regions."South Korea"]
+key = "South Korea"
+continent = "Asia"
+
+[data.regions."Southeast Asia"]
+key = "Southeast Asia"
+continent = "Asia"
+
+[data.regions."Taiwan"]
+key = "Taiwan"
+continent = "Asia"
+
+[data.regions."USA"]
+key = "USA"
+continent = "North America"
+
+####################
+# Outputs
+#################
+
+[data.outputs.energy_demand_elec_transport]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "demand_elecricity"
+sector = "transport"
+key = "energy_demand_elec_transport"
+query = "elec_consumption_by_demand_sector"
+units = "EJ"
+
+[data.outputs.energy_demand_elec_industry]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "demand_elecricity"
+sector = "industry"
+key = "energy_demand_elec_industry"
+query = "elec_consumption_by_demand_sector"
+units = "EJ"
+
+[data.outputs.energy_demand_elec_building]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "demand_elecricity"
+sector = "building"
+key = "energy_demand_elec_building"
+query = "elec_consumption_by_demand_sector"
+units = "EJ"
+
+[data.outputs.energy_demand_fuel_fossil_transport]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "demand_fuel"
+sector = "transport"
+key = "energy_demand_fuel_fossil_transport"
+query = "final_energy_consumption_by_sector_and_fuel"
+units = "EJ"
+
+[data.outputs.energy_demand_fuel_fossil_industry]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "demand_fuel"
+sector = "industry"
+key = "energy_demand_fuel_fossil_industry"
+query = "final_energy_consumption_by_sector_and_fuel"
+units = "EJ"
+
+[data.outputs.energy_demand_fuel_fossil_building]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "demand_fuel"
+sector = "building"
+key = "energy_demand_fuel_fossil_building"
+query = "final_energy_consumption_by_sector_and_fuel"
+units = "EJ"
+
+[data.outputs.energy_demand_fuel_biomass_industry]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "demand_fuel"
+sector = "industry"
+key = "energy_demand_fuel_biomass_industry"
+query = "final_energy_consumption_by_sector_and_fuel"
+units = "EJ"
+
+[data.outputs.energy_demand_fuel_biomass_building]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "demand_fuel"
+sector = "building"
+key = "energy_demand_fuel_biomass_building"
+query = "final_energy_consumption_by_sector_and_fuel"
+units = "EJ"
+
+[data.outputs.energy_price_electricity]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "price"
+sector = "electricity"
+key = "energy_price_electricity"
+query = "final_energy_prices"
+units = "1975$/GJ"
+
+[data.outputs.energy_price_coal]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "price"
+sector = "coal"
+key = "energy_price_coal"
+query = "final_energy_prices"
+units = "1975$/GJ"
+
+[data.outputs.energy_price_gas]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "price"
+sector = "transport"
+key = "energy_price_gas"
+query = "final_energy_prices"
+units = "1975$/GJ"
+
+[data.outputs.energy_price_oil]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "price"
+sector = "transport"
+key = "energy_price_oil"
+query = "final_energy_prices"
+units = "1975$/GJ"
+
+[data.outputs.energy_supply_electricity_coal]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "supply_electricity"
+sector = "coal"
+key = "energy_supply_electricity_coal"
+query = "elec_gen_by_subsector"
+units = "EJ"
+
+[data.outputs.energy_supply_electricity_oil]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "supply_electricity"
+sector = "oil"
+key = "energy_supply_electricity_oil"
+query = "elec_gen_by_subsector"
+units = "EJ"
+
+[data.outputs.energy_supply_electricity_gas]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "supply_electricity"
+sector = "gas"
+key = "energy_supply_electricity_gas"
+query = "elec_gen_by_subsector"
+units = "EJ"
+
+[data.outputs.energy_supply_electricity_solar]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "supply_electricity"
+sector = "solar"
+key = "energy_supply_electricity_solar"
+query = "elec_gen_by_subsector"
+units = "EJ"
+
+[data.outputs.energy_supply_electricity_wind]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "supply_electricity"
+sector = "wind"
+key = "energy_supply_electricity_wind"
+query = "elec_gen_by_subsector"
+units = "EJ"
+
+[data.outputs.energy_supply_electricity_biomass]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "supply_electricity"
+sector = "biomass"
+key = "energy_supply_electricity_biomass"
+query = "elec_gen_by_subsector"
+units = "EJ"
+
+[data.outputs.energy_supply_electricity_nuclear]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "supply_electricity"
+sector = "nuclear"
+key = "energy_supply_electricity_nuclear"
+query = "elec_gen_by_subsector"
+units = "EJ"
+
+[data.outputs.energy_supply_electricity_other]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "supply_electricity"
+sector = "other"
+key = "energy_supply_electricity_other"
+query = "elec_gen_by_subsector"
+units = "EJ"
+
+[data.outputs.energy_supply_primary_coal]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "supply_primary"
+sector = "coal"
+key = "energy_supply_primary_coal"
+query = "primary_energy_consumption_by_region"
+units = "EJ"
+
+[data.outputs.energy_supply_primary_oil]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "supply_primary"
+sector = "oil"
+key = "energy_supply_primary_oil"
+query = "primary_energy_consumption_by_region"
+units = "EJ"
+
+[data.outputs.energy_supply_primary_gas]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "supply_primary"
+sector = "gas"
+key = "energy_supply_primary_gas"
+query = "primary_energy_consumption_by_region"
+units = "EJ"
+
+[data.outputs.energy_supply_primary_solar]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "supply_primary"
+sector = "solar"
+key = "energy_supply_primary_solar"
+query = "primary_energy_consumption_by_region"
+units = "EJ"
+
+[data.outputs.energy_supply_primary_wind]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "supply_primary"
+sector = "wind"
+key = "energy_supply_primary_wind"
+query = "primary_energy_consumption_by_region"
+units = "EJ"
+
+[data.outputs.energy_supply_primary_biomass]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "supply_primary"
+sector = "biomass"
+key = "energy_supply_primary_biomass"
+query = "primary_energy_consumption_by_region"
+units = "EJ"
+
+[data.outputs.energy_supply_primary_nuclear]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "supply_primary"
+sector = "nuclear"
+key = "energy_supply_primary_nuclear"
+query = "primary_energy_consumption_by_region"
+units = "EJ"
+
+[data.outputs.energy_supply_primary_other]
+enabled = true
+subset = "new"
+resource = "energy"
+metric = "supply_primary"
+sector = "other"
+key = "energy_supply_primary_other"
+query = "primary_energy_consumption_by_region"
+units = "EJ"
+
+[data.outputs.land_demand_feed]
+enabled = true
+subset = "new"
+resource = "land"
+metric = "demand"
+sector = "feed"
+key = "land_demand_feed"
+query = "demand_balances_by_crop_commodity"
+units = "Mt"
+
+[data.outputs.land_demand_food]
+enabled = true
+subset = "new"
+resource = "land"
+metric = "demand"
+sector = "food"
+key = "land_demand_food"
+query = "demand_balances_by_crop_commodity"
+units = "Mt"
+
+[data.outputs.land_price_biomass]
+enabled = true
+subset = "new"
+resource = "land"
+metric = "price"
+sector = "biomass"
+key = "land_price_biomass"
+query = "prices_by_sector"
+units = "1975$/GJ"
+
+[data.outputs.land_price_forest]
+enabled = true
+subset = "new"
+resource = "land"
+metric = "price"
+sector = "forest"
+key = "land_price_forest"
+query = "prices_by_sector"
+units = "1975$/m3"
+
+[data.outputs.land_allocation_forest]
+enabled = true
+subset = "new"
+resource = "land"
+metric = "allocation"
+sector = "forest"
+key = "land_allocation_forest"
+query = "aggregated_land_allocation"
+units = "thousand km2"
+
+[data.outputs.land_allocation_biomass]
+enabled = true
+subset = "new"
+resource = "land"
+metric = "allocation"
+sector = "biomass"
+key = "land_allocation_biomass"
+query = "aggregated_land_allocation"
+units = "thousand km2"
+
+[data.outputs.land_allocation_pasture]
+enabled = true
+subset = "new"
+resource = "land"
+metric = "allocation"
+sector = "pasture"
+key = "land_allocation_pasture"
+query = "aggregated_land_allocation"
+units = "thousand km2"
+
+[data.outputs.land_allocation_grass_shrub]
+enabled = true
+subset = "new"
+resource = "land"
+metric = "allocation"
+sector = "grass"
+key = "land_allocation_grass_shrub"
+query = "aggregated_land_allocation"
+units = "thousand km2"
+
+[data.outputs.land_allocation_other]
+enabled = true
+subset = "new"
+resource = "land"
+metric = "allocation"
+sector = "other"
+key = "land_allocation_other"
+query = "aggregated_land_allocation"
+units = "thousand km2"
+
+[data.outputs.land_production_forest]
+enabled = true
+subset = "new"
+resource = "land"
+metric = "production"
+sector = "forest"
+key = "land_production_forest"
+query = "ag_production_by_crop_type"
+units = "billion m3"
+
+[data.outputs.land_production_biomass]
+enabled = true
+subset = "new"
+resource = "land"
+metric = "production"
+sector = "biomass"
+key = "land_production_biomass"
+query = "ag_production_by_crop_type"
+units = "EJ"
+
+[data.outputs.land_production_pasture]
+enabled = true
+subset = "new"
+resource = "land"
+metric = "production"
+sector = "pasture"
+key = "land_production_pasture"
+query = "ag_production_by_crop_type"
+units = "Mt"
+
+[data.outputs.land_production_grass_shrub]
+enabled = true
+subset = "new"
+resource = "land"
+metric = "production"
+sector = "grass"
+key = "land_production_grass_shrub"
+query = "ag_production_by_crop_type"
+units = "Mt"
+
+[data.outputs.land_production_other]
+enabled = true
+subset = "new"
+resource = "land"
+metric = "production"
+sector = "other"
+key = "land_production_other"
+query = "ag_production_by_crop_type"
+units = "Mt"
+
+[data.outputs.water_demand_crops]
+enabled = true
+subset = "new"
+resource = "water"
+metric = "demand"
+sector = "crops"
+key = "water_demand_crops"
+query = "water_withdrawls_by_tech"
+units = "km3"
+
+[data.outputs.water_demand_electricity]
+enabled = true
+subset = "new"
+resource = "water"
+metric = "demand"
+sector = "electricity"
+key = "water_demand_electricity"
+query = "water_withdrawls_by_tech"
+units = "km3"

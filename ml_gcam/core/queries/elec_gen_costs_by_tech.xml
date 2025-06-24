@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries name="query group">
+    <aQuery name="the query">
+        <query title="elec gen costs by tech">
+            <axis1 name="technology">technology</axis1>
+            <axis2 name="Year">cost</axis2>
+            <xPath buildList="true" dataName="cost" group="false" sumAll="false">*[@type='sector' and (@name='electricity' or @name='base load generation' or 
+        @name='intermediate generation' or @name='subpeak generation' or @name='peak generation' or @name='elect_td_bld')]//*[@type='subsector']//
+        *[@type='technology' and not(@name='elect_td_bld')]/cost/text()</xPath>
+            <comments/>
+        </query>
+    </aQuery>
+</queries>

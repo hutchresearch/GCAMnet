@@ -1,0 +1,13 @@
+Input|Scenarios|Scenario implementation
+Fossil fuel costs|Low/High|Crude oil, unconventional oil, natural gas, & coal SSP1 (high) & SSP5 (low) resource costs
+Emissions|Low/High|CO2 emissions constrained to 2 selected IIASA scenarios; high and low path to 2°C by 2100
+Bioenergy constraint|Low/-|Bioenergy taxed to keep total near 100 EJ/year (high), low scenario has no modification from reference behavior
+Nuclear costs|Low/High|Gen III reactor capital overnight costs fixed at 1975 values (low); decreasing from 2020 to 2100 (high)
+Carbon capture and storage (CCS)|Low/High|High and low carbon storage resource costs
+Wind & solar backups|Low/High|Increased (high) or decreased (low) backup requirement based on market share of wind and solar energy
+Wind storage costs|Low/High|Higher and lower wind storage capital overnight costs
+Wind tech costs|Low/High|Wind and wind offshore capital overnight costs fixed at 2020 values (high); decreasing 2020–2100 (low)
+Solar storage costs|Low/High|Higher and lower solar storage capital overnight costs
+Solar tech costs|Low/High|Higher CSP costs and PV (incl. rooftop) costs fixed at 2020 values (high); lower CSP costs and PV (incl. rooftop) costs decreasing 2020–2100
+Energy demand|Low/High|Energy demand, GDP, and population assumptions consistent with SSP1 (low) & SSP5 (high)
+Electrification|-/High|Increased share of electricity in building, industry, and transportation sectors (high); low scenario not modified
