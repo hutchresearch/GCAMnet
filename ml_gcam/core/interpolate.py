@@ -1087,14 +1087,14 @@ def make_configs(name):
         bits = row[columns].values
         if bits[1] == 0.0:
             if bits[4] == 0.0:
-                template = Path(config.paths.repo) / "ml_gcam" / "core" /  "config_templates" / "gcam_config_template_bio-lo_emiss-lo.xml"
+                template = Path(config.paths.repo) / "ml_gcam" / "core" /  "reference_configs" / "gcam_config_template_bio-lo_emiss-lo.xml"
             else:
-                template = Path(config.paths.repo) / "ml_gcam" / "core" /  "config_templates" / "gcam_config_template_bio-lo_emiss-hi.xml"
+                template = Path(config.paths.repo) / "ml_gcam" / "core" /  "reference_configs" / "gcam_config_template_bio-lo_emiss-hi.xml"
         else:
             if bits[4] == 0.0:
-                template = Path(config.paths.repo) / "ml_gcam" / "core" /  "config_templates" / "gcam_config_template_bio-hi_emiss-lo.xml"
+                template = Path(config.paths.repo) / "ml_gcam" / "core" /  "reference_configs" / "gcam_config_template_bio-hi_emiss-lo.xml"
             else:
-                template = Path(config.paths.repo) / "ml_gcam" / "core" /  "config_templates" / "gcam_config_template_bio-hi_emiss-hi.xml"
+                template = Path(config.paths.repo) / "ml_gcam" / "core" /  "reference-configs" / "gcam_config_template_bio-hi_emiss-hi.xml"
         d = Path(row.path)
         scenario_input_path = parent / "input" / f"{d.name}"
         bar.set_description(f"{row.name}: {d.name}")

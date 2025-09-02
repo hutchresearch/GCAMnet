@@ -6,7 +6,7 @@ This repo contains an implemention of a flexible, machine learning-based Global 
 
 ## Project Scope
 
-- Develop and train neural-network on data derived from experiments defined in [Woodward (2023)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022EF003442) (commonly references as "exp 1 jr.").
+- Develop and train neural-network on data derived from experiments defined in [Woodard (2023)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022EF003442) (commonly references as "exp 1 jr.").
 - Compare and contrast the performance of the emulator and the 'core' GCAM model performance.
 - Compare and contract the sensitivity of the emulator and the 'core' GCAM model performance.
 - Experiment with the sensitivity of emulator performance as a function of the amount of training data.
@@ -348,8 +348,7 @@ Options:
                                   gcamreader  [required]
   --save_path DIRECTORY           directory to save {experiment}.csv outputs
                                   (/path/to/data/targets/)
-  -f, --force
-  --pretend / --no-pretend
+  -f, --forc--pretend / --no-pretend
   --help                          Show this message and exit.
 ```
 
