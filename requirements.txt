@@ -4,7 +4,10 @@ einops
 accelerate
 torchtyping
 scikit-learn
+matplotlib
+numpy
 seaborn
+SALib
 tensorboard
 wandb
 polars>=0.20.19

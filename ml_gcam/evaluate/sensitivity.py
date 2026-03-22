@@ -16,14 +16,15 @@ from ..data import GcamDataset, Source, Split, load_targets
 from ..data.normalization import Normalization
 
 
-def sigma_normalization_factor(inputs_std, output_std, epsilon: float = 1e-12):
+def sigma_normalization_factor(inputs_std, output_std, epsilon: float = 1e-8):
     """Compute sigma-normalization factor with stable handling for tiny output std.
 
     DGSM normalization is sigma_x / sigma_y. For flat outputs (sigma_y ~= 0),
-    we clamp the denominator to avoid inf/NaN propagation.
+    we return zero to avoid inf/NaN propagation.
     """
-    denom = output_std if abs(float(output_std)) > epsilon else epsilon
-    return inputs_std / denom
+    if abs(float(output_std)) < epsilon:
+        return inputs_std * 0.0
+    return inputs_std / output_std
 
 
 def dgsm_sensitivity_compare(
