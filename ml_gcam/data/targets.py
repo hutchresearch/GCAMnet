@@ -55,7 +55,7 @@ SOURCES_WITH_DATA = Source.sampled()
 ALL_SPLITS = Split.all()
 ID_COLS = [
     pl.col("experiment").cast(pl.String),
-    pl.col("scenario_id").cast(pl.Int16),
+    pl.col("scenario_id").cast(pl.Int32),
     pl.col("region").cast(pl.String),
     pl.col("year").cast(pl.Int16),
     pl.col("split").cast(pl.String),

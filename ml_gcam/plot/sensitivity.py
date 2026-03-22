@@ -123,7 +123,7 @@ def sensitivity_heatmaps(sensitivity_path: Path):
                 xticklabels = False
             
             data = source_data["binary"].filter(pl.col("source") == "core") if source_key == "core" else source_data[source_key].filter(pl.col("source") == "emulator")
-            grouped = data.groupby(metric).median().sort(metric)[input_keys]
+            grouped = data.group_by(metric).median().sort(metric)[input_keys]
 
             map_val = sns.heatmap(
                 grouped,
@@ -143,7 +143,7 @@ def sensitivity_heatmaps(sensitivity_path: Path):
 
             if source_key != "core":
                 core_data = source_data[source_key].filter(pl.col("source") == "core")
-                core_grouped = core_data.groupby(metric).median().sort(metric)[input_keys]
+                core_grouped = core_data.group_by(metric).median().sort(metric)[input_keys]
                 map_r2 = r2_score(core_grouped.to_numpy().flatten(), grouped.to_numpy().flatten())
 
 
@@ -198,8 +198,8 @@ def sensitivity_sample_size(dir_path: Path):
         metric_collect["sample_size"] = int(sample.name.split("_")[0])
 
         for metric in ["region", "year", "quantity"]:
-            grouped_core = core_df.groupby(metric).median().sort(metric)[input_keys]
-            grouped_emulator = emulator_df.groupby(metric).median().sort(metric)[input_keys]
+            grouped_core = core_df.group_by(metric).median().sort(metric)[input_keys]
+            grouped_emulator = emulator_df.group_by(metric).median().sort(metric)[input_keys]
             r2 = r2_score(grouped_core.to_numpy().flatten(), grouped_emulator.to_numpy().flatten())
             metric_collect[metric] = r2
         metric_collect["overall"] = overall_r2

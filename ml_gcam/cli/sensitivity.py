@@ -43,30 +43,39 @@ def cli():
     type=click.Choice(["vi", "dgsm"]),
     help="calculate dgsm => True, calculate vi => False",
     required=True,
-)   
+)
+@click.option(
+    "-a",
+    "--aggregation",
+    type=click.Choice(["none", "quantity", "region", "year"]),
+    help="aggregate outputs before sensitivity: none keeps per-(region,year,quantity); others z-score and sum across the non-target dimensions",
+    default="none",
+)
 @targets_path()
 @train_source()
 @checkpoint_path()
 @cli.command("evaluate:sensitivity")
 def compare_dgsm(
-        targets_path, 
-        train_source, 
-        checkpoint_path: Path = None, 
-        save_directory: Path = None, 
-        level: str = None, 
-        strategy = 'z_score', 
-        sensitivity_norm: str = 'sigma'
+        targets_path,
+        train_source,
+        checkpoint_path: Path = None,
+        save_directory: Path = None,
+        level: str = None,
+        strategy = 'z_score',
+        sensitivity_norm: str = 'sigma',
+        aggregation: str = 'none',
 ):
     """Compare dgsm/vi between GCAM core and Emulator"""
     from ..evaluate import dgsm_sensitivity_compare
 
     dgsm_sensitivity_compare(
-            targets_path, 
-            train_source, 
-            checkpoint_path, 
-            save_directory, 
-            level, 
-            NormStrat.from_str(strategy), 
+            targets_path,
+            train_source,
+            checkpoint_path,
+            save_directory,
+            level,
+            NormStrat.from_str(strategy),
+            aggregation,
     )
 
 @click.option(

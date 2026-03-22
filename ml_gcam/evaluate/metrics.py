@@ -17,8 +17,8 @@ def calculate_r2(y_pred: np.ndarray, y_true: np.ndarray):
     scores = []
     for dimension in range(config.data.n_dimensions):
         r2 = r2_score(
-            y_pred[:, dimension, :],
             y_true[:, dimension, :],
+            y_pred[:, dimension, :],
             multioutput="raw_values",
         )
         scores.append(r2)

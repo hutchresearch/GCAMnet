@@ -18,7 +18,7 @@ class Arch(Enum):
         elif arch == "linear":
             arch = Arch.LINEAR
         else:
-            raise NotImplentedError(f"Model architecture not implemented: {arch}")
+            raise NotImplementedError(f"Model architecture not implemented: {arch}")
         return arch
 
     def init_model(self):
